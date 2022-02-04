@@ -1,0 +1,44 @@
+them 1 {
+	bg-color:#3b4664
+	colc-color:#252d44
+	box-top:#181f32
+	bg-btn:#eae3da
+   	text-tire:#fefefc;
+ 	text-roshan:#f5fcff;
+   	text-btn: #494c59;
+	reset-color:#647299
+	del-color:#65719b
+	equal-color:#d23f30
+	theme btn:#d33d34;
+	theme bg:#252b45
+	}
+
+them 2 {
+	bg-color:#e6e6e6
+	colc-color:#d2cecd
+	box-top:#eeeeee
+	bg-btn:#e5e4e0
+   	text-tire:#595853;
+   	text-roshan: #eeeeee;
+   	text-btn:#37362f;
+	reset-color:#388187
+	equal-color:#c85401
+	del-color:#388187
+	theme btn:#ce5100
+	theme bg:#d5cccd
+	}
+
+them 3 {
+	bg-color:#17062a
+	colc-color:#1e0836
+	box-top:#1e0836
+	bg-btn:#331b4d
+   	text-tire:#fbe43d
+   	text-roshan:#ffe4ff
+   	text-btn:#f6e048
+	reset-color:#56077c
+	equal-color:#00dfcf
+	del-color:#56077b
+	theme btn:#05dad1
+	theme bg:#1e0837
+	}

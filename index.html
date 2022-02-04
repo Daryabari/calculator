@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap" rel="stylesheet">
+    <!-- End Google Font -->
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="header">
+            <p class="p-header">1 2 3</p>
+            <h3 id="calc">calculator</h3>
+            <form action="#" class="formm">
+                <label for="inp1" class="container">
+                    THEME
+                </label>
+
+                <div id="theme-box">
+                    <label for="inp1" class="container" onclick="changerOne()">
+                        <input type="radio" class="inp" name="radio" id="inp1" >
+                        <div class="radio-check"></div>
+                    </label>
+                    <label for="inp2" class="container" onclick="changerTwo()">
+                        <input type="radio" class="inp" name="radio" id="inp2"  >
+                        <div class="radio-check"></div>
+                    </label>
+                    <label for="inp3" class="container" onclick="changerThree()">
+                        <input type="radio" class="inp" name="radio" id="inp3"  >
+                        <div class="radio-check"></div>
+                    </label>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="box-top">
+            <input type="text" id="inp-num">
+        </div>
+
+
+        <div class="box-bottom">
+            <!-- Buttons -->
+            <button type="submit" class="butt" id="bu0">0</button>
+            <button type="submit" class="butt" id="bu1">1</button>
+            <button type="submit" class="butt" id="bu2">2</button>
+            <button type="submit" class="butt" id="bu3">3</button>
+            <button type="submit" class="butt" id="bu4">4</button>
+            <button type="submit" class="butt" id="bu5">5</button>
+            <button type="submit" class="butt" id="bu6">6</button>
+            <button type="submit" class="butt" id="bu7">7</button>
+            <button type="submit" class="butt" id="bu8">8</button>
+            <button type="submit" class="butt" id="bu9">9</button>
+
+            <!-- Operators -->
+            <button type="submit" class="butt" data-action="addition" id="add">+</button>
+            <button type="submit" class="butt" data-action="subtraction" id="subtrac">-</button>
+            <button type="submit" class="butt" data-action="multiplication" id="multi">x</button>
+            <button type="submit" class="butt" data-action="division" id="divide">/</button>
+
+            <button type="submit" class="butt" data-action="result" id="equal">=</button>
+
+            <!-- Decimal point -->
+            <button type="submit" class="butt" data-action="decimal" id="dot">.</button>
+
+            <!-- Remove Number Button-->
+            <button type="submit" class="butt" data-action="delet" id="del">Del</button>
+
+            <!-- Reset Button -->
+            <button type="submit" class="butt" data-action="reset" id="reset">Reset</button>
+
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
